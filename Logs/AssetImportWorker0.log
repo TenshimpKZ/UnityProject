@@ -15,11 +15,11 @@ C:/Users/UTO/Desktop/UnityProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65422
+51688
 Successfully changed project path to: C:/Users/UTO/Desktop/UnityProject
 C:/Users/UTO/Desktop/UnityProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 28.19 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 34.24 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
@@ -35,93 +35,93 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001760 seconds.
+Registered in 0.002767 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 26.88 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 28.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.488 seconds
+- Completed reload, in  0.536 seconds
 Domain Reload Profiling:
-	ReloadAssembly (488ms)
-		BeginReloadAssembly (53ms)
+	ReloadAssembly (536ms)
+		BeginReloadAssembly (54ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (372ms)
-			LoadAssemblies (51ms)
+		EndReloadAssembly (416ms)
+			LoadAssemblies (53ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (128ms)
+			SetupTypeCache (156ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (132ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (138ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (27ms)
+				RefreshPlugins (28ms)
 				BeforeProcessingInitializeOnLoad (7ms)
-				ProcessInitializeOnLoadAttributes (70ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				ProcessInitializeOnLoadAttributes (73ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002022 seconds.
+Registered in 0.002281 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\UTO\Desktop\UnityProject\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.830 seconds
+- Completed reload, in  0.875 seconds
 Domain Reload Profiling:
-	ReloadAssembly (831ms)
-		BeginReloadAssembly (129ms)
+	ReloadAssembly (876ms)
+		BeginReloadAssembly (132ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (651ms)
-			LoadAssemblies (77ms)
+		EndReloadAssembly (684ms)
+			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (224ms)
+			SetupTypeCache (234ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (241ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (252ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (46ms)
-				ProcessInitializeOnLoadAttributes (177ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1521 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.9 MB.
-System memory in use after: 72.0 MB.
+System memory in use before: 72.3 MB.
+System memory in use after: 72.4 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1958.
-Total: 2.344200 ms (FindLiveObjects: 0.112300 ms CreateObjectMapping: 0.043000 ms MarkObjects: 2.127000 ms  DeleteObjects: 0.060800 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1959.
+Total: 2.267100 ms (FindLiveObjects: 0.106500 ms CreateObjectMapping: 0.040800 ms MarkObjects: 2.071500 ms  DeleteObjects: 0.047800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,31 +135,85 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes
-  artifactKey: Guid(94f245c90e6727c418ad14b20108a7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(94f245c90e6727c418ad14b20108a7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ee22e085fb338f02039cb7cdd8bce3') in 0.006875 seconds 
+  path: Assets/素材/高樓2020fn.fbx
+  artifactKey: Guid(b7ec9b1a4b477474c87a94b9026ad47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/高樓2020fn.fbx using Guid(b7ec9b1a4b477474c87a94b9026ad47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5d6238cd3afb019a8d6f64aa4f6363') in 0.355357 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.135750 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1cd2ce76b8069426dd5f543f7d0afc') in 0.005794 seconds 
+  Time since last request: 0.000165 seconds.
+  path: Assets/素材/超高樓2020fn.fbx
+  artifactKey: Guid(a9f831dfb74803b4da07610df783756b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/超高樓2020fn.fbx using Guid(a9f831dfb74803b4da07610df783756b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d062a117f8875ac1cde3b744f8c52d') in 0.048921 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 33.958177 seconds.
-  path: Assets/Scenes/廠景二.unity
-  artifactKey: Guid(e18898c08c6aee5459babf362ccee276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/廠景二.unity using Guid(e18898c08c6aee5459babf362ccee276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22438a0cc95427a92a9b7135e8527b9') in 0.004882 seconds 
+  Time since last request: 2.234877 seconds.
+  path: Assets/素材/矮樓2020fn.fbx
+  artifactKey: Guid(037bf3e06119a464ba4b276c2cbadcf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/矮樓2020fn.fbx using Guid(037bf3e06119a464ba4b276c2cbadcf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3a75d259913a3dfa3667cf5f44487f') in 0.133074 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.824905 seconds.
-  path: Assets/Scenes/場景二.unity
-  artifactKey: Guid(e18898c08c6aee5459babf362ccee276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/場景二.unity using Guid(e18898c08c6aee5459babf362ccee276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891ddde19861f9d4833e81ad284f0483') in 0.004562 seconds 
+  Time since last request: 54.247119 seconds.
+  path: Assets/素材/矮樓2020fn.fbx
+  artifactKey: Guid(037bf3e06119a464ba4b276c2cbadcf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/矮樓2020fn.fbx using Guid(037bf3e06119a464ba4b276c2cbadcf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1dca3c0c484163468c004b30a52afe7') in 0.149251 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 36.312481 seconds.
-  path: Assets/Scenes/場景一.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/場景一.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfdd1778de2f3c05f9865213572873c7') in 0.006014 seconds 
+  Time since last request: 1.281646 seconds.
+  path: Assets/素材/矮樓招牌.jpg
+  artifactKey: Guid(d373d45fa61785a45853021578d9d462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/矮樓招牌.jpg using Guid(d373d45fa61785a45853021578d9d462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73e7892db4108b0addd38179da8855d') in 0.026370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.059111 seconds.
+  path: Assets/素材/矮樓本體1.jpg
+  artifactKey: Guid(ba36f9bc5bba3e8429e7e209dc73c602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/矮樓本體1.jpg using Guid(ba36f9bc5bba3e8429e7e209dc73c602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850f839c9333460334fdce1e0712a464') in 0.015114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/素材/矮樓本體2.jpg
+  artifactKey: Guid(cea6f2fd425510341909442258f77af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/矮樓本體2.jpg using Guid(cea6f2fd425510341909442258f77af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8018121b36730717db491f6a979a5cc') in 0.010530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.234250 seconds.
+  path: Assets/素材/矮樓物件.jpg
+  artifactKey: Guid(641a6a4e1f91fbf428a4a59d0a30f37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/矮樓物件.jpg using Guid(641a6a4e1f91fbf428a4a59d0a30f37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a3027c7fbc8f94f2d76a044e59f6522') in 0.007893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.333404 seconds.
+  path: Assets/素材/超高樓2020fn.fbx
+  artifactKey: Guid(a9f831dfb74803b4da07610df783756b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/超高樓2020fn.fbx using Guid(a9f831dfb74803b4da07610df783756b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbdc22c32fbe00dce4fbc1040eb4f4d1') in 0.034948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/素材/超高樓本體.jpg
+  artifactKey: Guid(c1967e26113424641bac6f40cdcf258d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/超高樓本體.jpg using Guid(c1967e26113424641bac6f40cdcf258d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194e7293cddc1123290917810ffc3a7e') in 0.008389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/素材/超高樓物件.jpg
+  artifactKey: Guid(bd4e859ee76ab3b41a81d2fd41d1ce6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/超高樓物件.jpg using Guid(bd4e859ee76ab3b41a81d2fd41d1ce6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8909e90ee2d8485156804ebe90d0abe') in 0.008394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.540546 seconds.
+  path: Assets/素材/高樓.jpg
+  artifactKey: Guid(88f737e7af5add942803201b48b2a80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/高樓.jpg using Guid(88f737e7af5add942803201b48b2a80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb74b25e255075eefc53324d7d768b62') in 0.008138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.631577 seconds.
+  path: Assets/素材/圖片
+  artifactKey: Guid(da2ddb1e3807d9f48b2ec286617ab92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/圖片 using Guid(da2ddb1e3807d9f48b2ec286617ab92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '764b2da705284386befbb4fca083343c') in 0.004732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5768.261528 seconds.
+  path: Assets/素材/矮樓2020fn.fbx
+  artifactKey: Guid(037bf3e06119a464ba4b276c2cbadcf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/矮樓2020fn.fbx using Guid(037bf3e06119a464ba4b276c2cbadcf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c927377aea8762687642cdac2277d4c2') in 0.198969 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
